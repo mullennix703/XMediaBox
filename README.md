@@ -8,6 +8,12 @@ The target of XMediaBox is to build a data bridge over different apps and device
 
 
 
+Download
+------------
+(https://drive.google.com/drive/folders/13N474eoRZy6ForTilsq1gpN-NWi70AV-?usp=sharing)
+
+
+
 Typical Usage scenario
 -----------
 1. For youtuber. Broadcast personal live streaming to all streaming video platforms around the world and group chat channels such as zoom.  
