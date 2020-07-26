@@ -1,18 +1,18 @@
 Introduction
 ------------
-**XMediaBox** is a customized android rom based on LineageOS. It enable users to capture system's playing audio/video of this device. So the quality is better than screenshot/mic. It also provides video/audio push and relay service by rtmp/rtsp protocal. 
-XMediaBox's mic/camera data is highly customizable ,which means users can  specify any video/audio source(file/stream video) as inut of mic/camera.In this way users can broadcast any live streaming video/audio to any friend or group by video chat app.
-XMediaBox could be a local media server.It shares system's playing video/audio with other devices.
-The target of XMediaBox is to build a data bridge over different apps and devices. Nowdays people knows that data is valuable, but limitation is data is only binded to a single app.
-XMediaBox hopes to help users reuse, porcess and send data easily. 
+**XMediaBox** is a customized android rom based on LineageOS. It enable users to capture system's playing audio/video of this device. So the quality is better than screenshot/mic. It also provides video/audio push and relay service by rtmp/rtsp protocal.\<br>
+XMediaBox's mic/camera data is highly customizable ,which means users can  specify any video/audio source(file/stream video) as inut of mic/camera.In this way users can broadcast any live streaming video/audio to any friend or group by video chat app.\<br>
+XMediaBox could be a local media server.It shares system's playing video/audio with other devices.\<br>
+The target of XMediaBox is to build a data bridge over different apps and devices. Nowdays people knows that data is valuable, but limitation is data is only binded to a single app.\<br>
+XMediaBox hopes to help users reuse, porcess and send data easily.\<br> 
 
 
 
 Typical Usage scenario
 -----------
-1. For youtuber. Broadcast personal live streaming to all streaming video platforms around the world and group chat channels such as zoom.
-The solution is like below graph. The user chooses a main platform and boardcasts live streaming as usual. The background system works like this. A XMediaBox device captures live streaming video and forwards it to the a media server. The media server supports relay server to forward video to other rtsp/rtmp based live steraming platforms and supports other XMediaBox devices to forward video to group chat apps.Synchronization robots(under development)  monitor all related channels and send all comments back to main platform, which makes two way communication for every live streaming channel.This solution doesn't interrupt user's normal operation and is easy to deploy.It is suitable both for single youtuber and third part service provider.
-![Image text](http://github.com/mullennix703/XMediaBox/raw/master/images/XMediaBox.png)
+1. For youtuber. Broadcast personal live streaming to all streaming video platforms around the world and group chat channels such as zoom.\<br>
+The solution is like below graph. The user chooses a main platform and boardcasts live streaming as usual. The background system works like this. A XMediaBox device captures live streaming video and forwards it to the a media server. The media server supports relay server to forward video to other rtsp/rtmp based live steraming platforms and supports other XMediaBox devices to forward video to group chat apps.Synchronization robots(under development)  monitor all related channels and send all comments back to main platform, which makes two way communication for every live streaming channel.This solution doesn't interrupt user's normal operation and is easy to deploy.It is suitable both for single youtuber and third part service provider.\<br>
+!(https://github.com/mullennix703/XMediaBox/raw/master/images/XMediaBox.png)
 
 2. For sport fans. XMediaBox makes it easy to be a match commenator and share live streaming and ideas to friends in a chat group. 
 
@@ -20,8 +20,8 @@ The solution is like below graph. The user chooses a main platform and boardcast
 
 Configuration 
 -------
-The functionality is triggered by a configuration app (MediaCenter). The user needs to specify a working mode there.All configuration items are divided into two catagory push mode and tunnel mode.
-Push mode supports rtsp/rtmp push server.Tunnel mode supports camera/mic hacking.The solution performance depends on hardware capacity(1080p require Qcom835).
+The functionality is triggered by a configuration app (MediaCenter). The user needs to specify a working mode there.All configuration items are divided into two catagory push mode and tunnel mode.\<br>
+Push mode supports rtsp/rtmp push server.Tunnel mode supports camera/mic hacking.The solution performance depends on hardware capacity(1080p require Qcom835).\<br>
 ### Push Stream Configuration
 1. **Push Server Address.** rtmp/rtsp push server.
 2. **Rtsp Server.** Make the device become a rtsp server, share system video/audio with other rtsp client.
