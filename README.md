@@ -41,6 +41,9 @@ Push mode supports rtsp/rtmp push server.Tunnel mode supports camera/mic hacking
 5. **Set source video network address.** Set a streaming video address as source of camera&mic. 
 6. **Audio only.** Only hacking mic.
 
+### Howto install
+[guidance](https://wiki.lineageos.org/install_guides.html)
+
 ### Enable Stay Awake in Setting->Developer Options to prevent disturbance
 
 ### Contact
